@@ -168,8 +168,14 @@ section{
 .section__pic-container{
     display: flex;
     height: 500px;
-    width: 500px;
+    width: 400px;
     margin: auto 0;
+    padding: 2rem;
+}
+
+.about-pic{
+    height: 600px;
+    width: 500px;
 }
 
 .section__text{
@@ -207,6 +213,7 @@ section{
 .icon{
     cursor: pointer;
     height: 3rem;
+    padding: 0.3rem;
 }
 
 /*Buttons*/
@@ -255,4 +262,8 @@ section{
 
 .btn-container{
     gap: 1rem;
+}
+
+.about-details-container{
+    padding:2rem;
 }
