@@ -170,12 +170,13 @@ section {
   height: 80vh;
 }
 
+
 .section__pic-container {
   display: flex;
   height: 500px;
   width: 500px;
   margin: auto 0;
-  padding: 3rem;
+  padding: 6rem;
 }
 
 .section__text {
@@ -212,7 +213,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 3rem;
 }
 
 /* BUTTONS */
@@ -276,7 +277,7 @@ section {
 }
 
 .about-details-container {
-    margin-top: 1rem;
+    margin-top: 0.1rem;
     justify-content: center;
     flex-direction: column;
 }
@@ -298,9 +299,11 @@ section {
 }
 
 .details-container {
+  height: 150px;
+  width: 100px;
   padding: 1.5rem;
   flex: 1;
-  background: rgb(1,86,33);
+  background: rgb(138, 154, 91);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: black;
@@ -309,6 +312,7 @@ section {
 
 p.experience, p.education {
     color:white;
+    font-size: 1.3rem;
 }
 
 
@@ -321,4 +325,8 @@ p.experience, p.education {
 .section__pic-container {
   width: 400px;
   margin: auto 0;
+}
+
+p.about-me-text{
+    text-align: center;
 }
